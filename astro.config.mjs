@@ -14,6 +14,7 @@ export default defineConfig({
         // Configure where our media assets are stored & served from
         media_folder: 'public/assets/blog',
         public_folder: '/assets/blog',
+        publish_mode: 'editorial_workflow',
         // Configure the content collections
         collections: [
           {
